@@ -70,7 +70,7 @@ pressl.style.top = "0px"
 pressl.style.left = "65%"
 main.appendChild(pressl)
 
-let lives = 2
+let lives = 5
 let lifedisplay = document.createElement("h1");
 lifedisplay.innerHTML = "Lives: " + lives
 lifedisplay.style.color = "white"
