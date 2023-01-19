@@ -280,6 +280,7 @@ function movement(){
                     bulletArr[i].xvelo = 0
                     bulletArr[i].yvelo = 0
                     bulletArr[i].remove()
+                    bulletArr.splice(i, 1)
                     // bulletArr.splice(i, i)
 
                 }
